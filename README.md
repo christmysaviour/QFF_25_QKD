@@ -1,5 +1,5 @@
 # 🔐 Quantum Key Distribution — BB84 & BB92  
-### QFF Hackathon Project | Implemented using Qiskit  
+### Qiskit Fall Fest 25 Hackathon Project | Implemented using Qiskit  
 _Notebooks: `BB84_hackathon.ipynb`, `b92.ipynb`_
 
 ---
@@ -32,18 +32,7 @@ By comparing both protocols, we analyze trade-offs in **security**, **efficiency
 - Simulates **probabilistic conclusive measurements** and sifting process.  
 - Measures QBER and key generation efficiency under different noise levels.  
 - Enables direct comparison with BB84 to study **noise resilience** and **key rate**.
-
----
-
-## 📊 Comparative Analysis
-| Feature | BB84 | BB92 |
-|:--|:--|:--|
-| **States Used** | 4 (|0⟩, |1⟩, |+⟩, |−⟩) | 2 (|0⟩, |+⟩) |
-| **Measurement Bases** | Random Z/X | Implicit conclusive measurement |
-| **Key Rate** | Higher (≈50%) | Lower due to inconclusive outcomes |
-| **Security** | High — robust to noise | High — more efficient against certain eavesdropping attacks |
-| **QBER Sensitivity** | Moderate | Slightly higher under noise |
-
+- 
 ---
 
 ## 🧪 Results & Plots
