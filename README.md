@@ -1,11 +1,11 @@
-# 🔐 Quantum Key Distribution — BB84 & BB92  
+# 🔐 Quantum Key Distribution - BB84 & B92  
 ### Qiskit Fall Fest 25 Hackathon Project | Implemented using Qiskit  
 _Notebooks: `BB84_hackathon.ipynb`, `b92.ipynb`_
 
 ---
 
 ## 🧠 Abstract  
-This project implements **end-to-end Quantum Key Distribution (QKD)** protocols — **BB84** and **BB92** — using **Qiskit**, demonstrating secure quantum key exchange leveraging the principles of quantum mechanics.
+This project implements **end-to-end Quantum Key Distribution (QKD)** protocols — **BB84** and **B92** — using **Qiskit**, demonstrating secure quantum key exchange leveraging the principles of quantum mechanics.
 
 The implementation simulates:
 - **Qubit preparation, transmission, and measurement**
@@ -61,7 +61,7 @@ By comparing both protocols, we analyze trade-offs in **security**, **efficiency
 
 ## 📈 Future Work
 - Integrate **error correction** (Cascade protocol) and **privacy amplification** stages.  
-- Implement **explicit POVM-based measurement** for BB92 (unambiguous state discrimination).  
+- Implement **explicit POVM-based measurement** for B92 (unambiguous state discrimination).  
 - Run on **real IBM Quantum backends** to test under physical noise models.  
 - Extend to **E91 (Entanglement-based QKD)** and **continuous-variable QKD** schemes.
 
