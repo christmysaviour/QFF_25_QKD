@@ -12,7 +12,7 @@ The implementation simulates:
 - **Basis reconciliation (sifting)**
 - **Error rate estimation (QBER)**
 - **Detection of eavesdropping (Eve attack simulation)**
-- **Comparison of BB84 and BB92 performance** under varying noise conditions.
+- **Comparison of BB84 and B92 performance** under varying noise conditions.
 
 By comparing both protocols, we analyze trade-offs in **security**, **efficiency**, and **noise tolerance**, offering insight into the practical feasibility of QKD on today’s quantum simulators.
 
@@ -27,7 +27,7 @@ By comparing both protocols, we analyze trade-offs in **security**, **efficiency
 - Performs **sifting** to extract shared keys where bases align.  
 - Computes **Quantum Bit Error Rate (QBER)** to evaluate protocol integrity.
 
-### 🪩 2. BB92 Protocol
+### 🪩 2. B92 Protocol
 - Implements a simplified **two-nonorthogonal-state QKD** scheme.  
 - Simulates **probabilistic conclusive measurements** and sifting process.  
 - Measures QBER and key generation efficiency under different noise levels.  
@@ -39,7 +39,7 @@ By comparing both protocols, we analyze trade-offs in **security**, **efficiency
 - **QBER vs Noise Probability:**  
   Shows how error rate increases with depolarizing noise and eavesdropping.  
 - **Sifted Key Rate Comparison:**  
-  Demonstrates that BB84 maintains a higher usable key fraction than BB92.
+  Demonstrates that BB84 maintains a higher usable key fraction than B92.
 
 *(Refer to the notebook outputs for detailed plots and numerical results.)*
 
